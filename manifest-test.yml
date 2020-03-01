@@ -1,0 +1,8 @@
+applications:
+- name: ekart-api-gateway
+  memory: 512MB
+  host: ekart-api-gateway-test
+  instances: 2
+  path: target/ekart-api-gateway-0.0.3-SNAPSHOT.jar 
+  services:
+    - eureka-service

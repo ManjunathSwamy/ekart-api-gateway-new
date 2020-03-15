@@ -1,6 +1,6 @@
 applications:
 - name: ekart-api-gateway
-  memory: 1024MB
+  memory: 666MB
   host: ekart-api-gateway
   instances: 1
   path: target/ekart-api-gateway-0.0.4-SNAPSHOT.jar 
